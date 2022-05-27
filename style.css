@@ -1,14 +1,12 @@
 .half-width{
-    /* width: 50%; */
     padding-left: 5%;
     padding-right: 5%;
-    /* padding-top: 50px; */
 }
 .half-width:nth-child(1){
     padding-top: 50px;
 }
 .half-width img{
-    width: 400px;
+    width: 250px;
     padding-bottom: 10px;
 }
 body{
@@ -35,4 +33,39 @@ h1{
     padding: 20px 40px;
     color: black;
     border-radius: 20px;
+    }
+    .header>img{
+        width: 45%;
+    }
+    .person{
+        background-image: url(food-network-main/food-network-main/images/shapes/7.png);
+        margin-top: 4%;
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    .recipe{
+        text-align: center;
+        padding-top: 70px;
+    }
+    .food{
+        border: 8px solid;
+        border-color: aliceblue;
+        border-radius: 30px;
+        margin: 20px;
+    }
+    .food>img{
+        width: 100%;
+    }
+    .follower{
+        width: 100%;
+        font-weight: bold;
+        text-align: center;
+        border: 8px solid;
+        border-color: aliceblue;
+        margin: 0;
+
+    }
+    footer{
+        text-align: center;
+        background-color: gray;
     }
